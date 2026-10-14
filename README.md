@@ -6,14 +6,14 @@ This is a preview theme with light and dark modes.
 
 ## Preview status
 
-An independent review scored this version 74/100 on 14 October 2026.
+An independent review scored source version 1.0.0 74/100 on 14 October 2026.
 The NoteMods acceptance gate requires at least 95/100. This version remains on hold.
 Obsidian directory approval is not claimed.
 
 ## Design
 
 - Dual scale editor grid.
-- Numbered section labels.
+- Ruled heading hierarchy.
 - Code blocks with double rules.
 
 These styles change presentation. They do not add application features or plugins.
@@ -33,7 +33,7 @@ They show Live Preview and Reading view side by side.
 
 ## Install the preview
 
-1. Download `theme.css` and `manifest.json` from the `1.0.0` release.
+1. Download `theme.css` and `manifest.json` from the `1.0.1` release.
 2. Open your vault folder. Show hidden folders if necessary.
 3. Create `.obsidian/themes/Schematic Draft/` inside the vault.
 4. Put both files in that folder. Keep their file names unchanged.
@@ -67,7 +67,21 @@ Use a test note. Remove personal information from screenshots before you send th
 ## Credits and licence
 
 The original manifest credits Visual Thinking Factory (U19).
-NoteMods maintains this preview repository. The original CSS, manifest, and licence are preserved.
+NoteMods maintains this preview repository. Copyright credits and MIT terms are preserved.
 See [LICENSE](./LICENSE) for the MIT terms.
 
 [View the NoteMods catalog](https://notemods.com/themes/).
+
+## Version 1.0.1
+
+Automatic heading numbers were removed because scrolling long notes could reset them to incorrect values.
+Heading size, weight, and rules still show the document hierarchy.
+Type section numbers in Markdown when you need stable numbered headings.
+The historical score applies to source version 1.0.0. This repair has not received a new independent quality review.
+The 95/100 acceptance gate remains unmet.
+
+## Callouts and tables
+
+![Light mode callouts and tables](./images/light-components.jpg)
+
+![Dark mode callouts and tables](./images/dark-components.jpg)

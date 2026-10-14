@@ -176,14 +176,7 @@
 }
 .markdown-rendered h1 { border-bottom: 2px solid var(--draft-rule); padding-bottom: 0.2em; }
 .markdown-rendered h2 { border-bottom: 1px dashed var(--background-modifier-border); padding-bottom: 0.18em; }
-.markdown-preview-view { counter-reset: draft-fig; }
-.markdown-rendered h3 { counter-increment: draft-fig; }
-.markdown-rendered h3::before {
-  content: "§" counter(draft-fig) "  ";
-  font-family: var(--font-monospace-theme);
-  color: var(--text-accent);
-  font-variant-numeric: tabular-nums;
-}
+/* Heading labels stay authored in Markdown; no generated section counters. */
 
 /* ---------- links: schematic callouts ---------- */
 a.internal-link { color: var(--link-color); text-decoration: underline solid; text-underline-offset: 0.14em; }
